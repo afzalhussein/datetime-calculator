@@ -1,4 +1,5 @@
 # Date-Time Calculator
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/45334d0a-ef8f-4cfb-8029-f95a36c0f11f" />
 
 A comprehensive date and time calculation tool with RESTful API backend and React frontend.
 
