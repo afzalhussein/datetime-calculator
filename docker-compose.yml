@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  backend:
+    build: ./server
+    ports:
+      - "8000:8000"
+    environment:
+      - SOME_ENV_VAR=value
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
